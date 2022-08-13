@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  background-color: #121212;
+}
+.navbar .nav-item {
+  margin-left: 20px;
+}
+.navbar a {
+  transition: 0.4s;
+}
+.navbar a:hover {
+  color: white !important;
+  border-bottom: solid 1px white;
+}
+.navbar .nav-link {
+  color: rgb(109, 107, 107);
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+.navbar .active {
+  color: rgb(109, 107, 107) !important;
+}
+
+.jumbotron-section {
+  background-image: url(https://wallpaperaccess.com/full/1431610.jpg);
+  background-size: cover;
+  height: 100vh;
+  filter: brightness(100%);
+  color: white;
+}
+.jumbotron-section h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.jumbotron-section a {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  background-color: #30475E;
+  border: solid 3px white;
+  text-decoration: none;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+.jumbotron-section a:hover {
+  background-color: #121212;
+  border: solid 3px white;
+  color: white;
+}
+.jumbotron-section .col {
+  padding-top: 350px;
+}
+
+.top-gallery-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.top-gallery-section h3 {
+  margin-top: 15px;
+}
+.top-gallery-section p {
+  color: rgb(109, 107, 107);
+}
+.top-gallery-section img {
+  width: 100%;
+  height: 35vh;
+  filter: brightness(90%);
+}
+.top-gallery-section .btn {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+.top-gallery-section .btn:hover img {
+  filter: brightness(120%);
+}
+.top-gallery-section .line-row {
+  margin-bottom: 20px;
+}
+.top-gallery-section .line {
+  border-bottom: solid 1px rgb(109, 107, 107);
+}
+.top-gallery-section .total-btn {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  transition: 1s;
+}
+.top-gallery-section .total-btn:hover {
+  color: red;
+}
+.top-gallery-section .modal-title {
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.top-gallery-section .modal-body img {
+  width: 100%;
+  height: auto;
+}
+.top-gallery-section .btn-close {
+  font-size: 2rem;
+}
+.top-gallery-section .modal-footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.top-gallery-section iframe {
+  width: 100%;
+  height: 80vh;
+}
+
+.carousel-section {
+  margin-top: -20px;
+  padding-top: 50px;
+  background-color: black;
+}
+
+.footer-section .nav-link {
+  color: black !important;
+}
+.footer-section .text-center {
+  color: black !important;
+}
+
+/*# sourceMappingURL=style.css.map */

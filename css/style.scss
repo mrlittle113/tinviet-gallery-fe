@@ -1,0 +1,159 @@
+$black: #121212;
+$button: #30475E;
+$low-white: rgb(109, 107, 107);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: $black;
+
+    .nav-item {
+        margin-left: 20px;
+    }
+
+    a {
+        transition: 0.4s;
+    }
+
+    a:hover {
+        color: white !important;
+        border-bottom: solid 1px white;
+    }
+
+    .nav-link {
+        color: rgb(109, 107, 107);
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .active {
+        color: rgb(109, 107, 107) !important;
+    }
+}
+
+.jumbotron-section {
+    background-image: url(https://wallpaperaccess.com/full/1431610.jpg);
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(100%);
+    color: white;
+
+    h1 {
+        color: white;
+        font-size: 3.5rem;
+    }
+
+    a {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        background-color: $button;
+        border: solid 3px white;
+        text-decoration: none;
+        padding: 10px;
+        position: absolute;
+        width: 200px;
+        text-align: center;
+        color: white;
+    }
+
+    a:hover {
+        background-color: $black;
+        border: solid 3px white;
+        color: white;
+    }
+
+    .col {
+        padding-top: 350px;
+    }
+}
+
+.top-gallery-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    h3 {
+        margin-top: 15px;
+    }
+
+    p {
+        color: $low-white;
+    }
+
+    img {
+        width: 100%;
+        height: 35vh;
+        filter: brightness(90%);
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+    }
+
+    .btn:hover img {
+        filter: brightness(120%);
+    }
+
+    .line-row {
+        margin-bottom: 20px;
+    }
+
+    .line {
+        border-bottom: solid 1px $low-white;
+    }
+    .total-btn {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        transition: 1s;
+    }
+    .total-btn:hover {
+        color: red;
+    }
+    .modal-title {
+        color: black;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .modal-body img {
+        width: 100%;
+        height: auto;
+    }
+    .btn-close {
+        font-size: 2rem;
+    }
+    .modal-footer {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    iframe {
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+.carousel-section {
+    margin-top: -20px;
+    padding-top: 50px;
+    background-color: black;
+}
+
+.footer-section {
+    .nav-link {
+        color: black !important;
+    }
+    .text-center {
+        color: black !important;
+    }
+}
