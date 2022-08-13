@@ -12,7 +12,7 @@
 .navbar a {
   transition: 0.4s;
 }
-.navbar a:hover {
+.navbar .nav-link:hover {
   color: white !important;
   border-bottom: solid 1px white;
 }
@@ -63,6 +63,7 @@
   background-color: black;
   color: white;
   text-align: center;
+  padding-top: 30px;
 }
 .top-gallery-section h3 {
   margin-top: 15px;
@@ -72,7 +73,7 @@
 }
 .top-gallery-section img {
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   filter: brightness(90%);
 }
 .top-gallery-section .btn {
@@ -82,6 +83,12 @@
 }
 .top-gallery-section .btn:hover img {
   filter: brightness(120%);
+}
+.top-gallery-section .btn:hover p {
+  color: whitesmoke;
+}
+.top-gallery-section .btn:hover h3 {
+  color: #F05454;
 }
 .top-gallery-section .line-row {
   margin-bottom: 20px;
@@ -101,7 +108,7 @@
 }
 .top-gallery-section .modal-title {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .top-gallery-section .modal-body img {
@@ -109,7 +116,7 @@
   height: auto;
 }
 .top-gallery-section .btn-close {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .top-gallery-section .modal-footer {
   text-align: center;
@@ -127,11 +134,28 @@
   background-color: black;
 }
 
+.footer-section {
+  background-color: black;
+}
 .footer-section .nav-link {
-  color: black !important;
+  font-size: 1.2rem;
+  color: rgb(109, 107, 107) !important;
+}
+.footer-section .nav-link:hover {
+  color: white !important;
 }
 .footer-section .text-center {
-  color: black !important;
+  font-size: 1.5rem;
+  color: white !important;
+}
+
+.break-section {
+  background-color: #1e1e1e;
+  height: 10vh;
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

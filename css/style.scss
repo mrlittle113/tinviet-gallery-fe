@@ -1,10 +1,15 @@
 $black: #121212;
 $button: #30475E;
 $low-white: rgb(109, 107, 107);
+$low-red: #F05454;
 
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+
+.on-top {
+
 }
 
 .navbar {
@@ -18,7 +23,7 @@ $low-white: rgb(109, 107, 107);
         transition: 0.4s;
     }
 
-    a:hover {
+    .nav-link:hover {
         color: white !important;
         border-bottom: solid 1px white;
     }
@@ -77,6 +82,7 @@ $low-white: rgb(109, 107, 107);
     background-color: black;
     color: white;
     text-align: center;
+    padding-top: 30px;
 
     h3 {
         margin-top: 15px;
@@ -88,7 +94,7 @@ $low-white: rgb(109, 107, 107);
 
     img {
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         filter: brightness(90%);
     }
 
@@ -102,6 +108,14 @@ $low-white: rgb(109, 107, 107);
         filter: brightness(120%);
     }
 
+    .btn:hover p {
+        color: whitesmoke;
+    }
+
+    .btn:hover h3 {
+        color: $low-red;
+    }
+
     .line-row {
         margin-bottom: 20px;
     }
@@ -109,6 +123,7 @@ $low-white: rgb(109, 107, 107);
     .line {
         border-bottom: solid 1px $low-white;
     }
+
     .total-btn {
         padding: 10px;
         text-decoration: none;
@@ -116,12 +131,14 @@ $low-white: rgb(109, 107, 107);
         font-size: 1.4rem;
         transition: 1s;
     }
+
     .total-btn:hover {
         color: red;
     }
+
     .modal-title {
         color: black;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
     }
 
@@ -129,14 +146,17 @@ $low-white: rgb(109, 107, 107);
         width: 100%;
         height: auto;
     }
+
     .btn-close {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+
     .modal-footer {
         text-align: center;
         display: flex;
         justify-content: center;
     }
+
     iframe {
         width: 100%;
         height: 80vh;
@@ -150,10 +170,28 @@ $low-white: rgb(109, 107, 107);
 }
 
 .footer-section {
+    background-color: black;
+
     .nav-link {
-        color: black !important;
+        font-size: 1.2rem;
+        color: $low-white !important;
     }
+
+    .nav-link:hover {
+        color: white !important;
+    }
+
     .text-center {
-        color: black !important;
+        font-size: 1.5rem;
+        color: white !important;
     }
+}
+
+.break-section {
+    background-color: #1e1e1e;
+    height: 10vh;
+}
+
+body {
+    background-color: black;
 }
