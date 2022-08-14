@@ -135,7 +135,8 @@ $low-red: #F05454;
     .total-btn:hover {
         color: red;
     }
-
+    .modal-content{
+    }
     .modal-title {
         color: black;
         font-size: 2rem;
@@ -143,12 +144,20 @@ $low-red: #F05454;
     }
 
     .modal-body img {
-        width: 80%;
+        width: 100%;
         height: auto;
+        border-top: solid 3px white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .btn-close {
         font-size: 1.5rem;
+        color: white !important;
+    }
+
+    .modal-header {
+        height: 5vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .modal-footer {
