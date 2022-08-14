@@ -112,7 +112,7 @@
   font-weight: bold;
 }
 .top-gallery-section .modal-body img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .top-gallery-section .btn-close {
@@ -156,6 +156,10 @@
 
 body {
   background-color: black;
+}
+
+.asd img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
